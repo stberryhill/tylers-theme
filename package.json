@@ -1,0 +1,21 @@
+{
+    "name": "tylers-theme",
+    "displayName": "Tyler's Theme",
+    "description": "My Personal VSCode Theme with emphasis on green over blue.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Tyler's Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/tylers-theme-color-theme.json"
+            }
+        ]
+    }
+}
